@@ -1,3 +1,17 @@
+You should get the OpeniBoot ARM toolchain generator script:
+https://github.com/iDroid-Project/OpeniBoot-toolchain.git
+
+OiBC (communicates with the iphone/ipod while openiboot is running):
+(USE THIS IF YOU HAVE LINUX/*NIX) https://github.com/iDroid-Project/OiBC.git
+(USE THIS INSTEAD IF YOU HAVE WINDOWS) https://github.com/iDroid-Project/OiBC-win32.git
+
+Syringe (loads openiboot onto the iphone/ipod):
+https://github.com/iDroid-Project/syringe.git
+
+Android NDK (i've only tried android-ndk-r8 AKA 'revision 8'):
+http://developer.android.com/sdk/ndk/index.html (if link is broken, google it)
+Be sure to stick the NDK in /opt as "/opt/android-ndk" (android-ndk/ being the root of the NDK)
+
 iDroid Project openiBoot
 ---------------------------------------------------
 	Copyright (C) 2008 David Wang (planetbeing).
